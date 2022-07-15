@@ -1,0 +1,41 @@
+{
+  "name": "prowlers-and-paragons",
+  "title": "Prowlers and Paragons",
+  "description": "This allows you to play Prowlers and Paragons in FoundryVTT!",
+  "version": "1.0.0",
+  "templateVersion": 2,
+  "author": "Randy 'Syntruth' Carnahan",
+  
+  "scripts": [
+    "scripts/system-script-1.js",
+    "scripts/system-script-2.js"
+  ],
+
+  "esmodules": [
+    "scripts/system-module-1.mjs"
+  ],
+
+  "styles": [
+    "styles/system-styles-1.css",
+    "styles/system-styles-2.css"
+  ],
+
+  "packs": [],
+
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+     }
+  ],
+
+  "socket": true,
+  "initiative": "1d20",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.power",
+  "url": "https://github.com/syntruth/prowlers-and-paragons-foundry-vtt",
+  "manifest": "https://raw.githubusercontent.com/syntruth/prowlers-and-paragons-foundry-vtt/main/system.json"
+}
