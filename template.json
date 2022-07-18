@@ -1,0 +1,52 @@
+{
+  "Actor": {
+    "types": ["hero", "villain", "foe", "minion"],
+
+    "templates": {
+      "background": {
+        "name":       "",
+        "alias":      "",
+        "team":       "",
+        "motivation": "",
+        "quote":      ""
+      },
+
+      "resources": {
+        "health": {
+          "min":   0,
+          "value": 1,
+          "max":   1000
+        },
+
+        "edge": {
+          "min":   1,
+          "value": 1,
+          "max":   100
+        },
+
+        "resolve": {
+          "min":   0,
+          "value": 0,
+          "max":   100
+        }
+      }
+    },
+
+    "hero": {
+      "templates": ["background", "resources"],
+      "hero_points": {
+        "value": 0,
+        "max":   10000
+      }
+    },
+
+    "villain": {
+      "templates": ["background", "resources"]
+    },
+
+    "foe": {},
+
+    "minion": {}
+  }
+}
+
