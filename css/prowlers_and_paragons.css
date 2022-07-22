@@ -225,11 +225,15 @@
 
 /* Styles limited to prowlers_and_paragons sheets */
 .prowlers_and_paragons {
-  background-color: #fff;
   /* ----------------------------------------- */
   /*  Items Lists                              */
   /* ----------------------------------------- */
   /* Example style for prowlers_and_paragons (can be removed if not needed) */
+}
+
+.prowlers_and_paragons .window-content {
+  background-image: none !important;
+  background-color: #fff;
 }
 
 .prowlers_and_paragons .item-form {
