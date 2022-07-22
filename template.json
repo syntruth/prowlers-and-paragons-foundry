@@ -12,41 +12,134 @@
       },
 
       "resources": {
+        "edge": {
+          "value": 0
+        },
+
         "health": {
           "min":   0,
           "value": 1,
-          "max":   1000
-        },
-
-        "edge": {
-          "min":   1,
-          "value": 1,
-          "max":   100
+          "max":   1
         },
 
         "resolve": {
           "min":   0,
           "value": 0,
-          "max":   100
+          "max":   0
         }
+      },
+
+      "core": {
+        "abilities": {
+          "agility": {
+            "value": 1
+          },
+
+          "intellect": {
+            "value": 1
+          },
+
+          "might": {
+            "value": 1
+          },
+
+          "perception": {
+            "value": 1
+          },
+
+          "toughness": {
+            "value": 1
+          },
+
+          "willpower": {
+            "value": 1
+          }
+        },
+
+        "talents": {
+          "academics": {
+            "value": 1
+          },
+
+          "charm": {
+            "value": 1
+          },
+
+          "command": {
+            "value": 1
+          },
+
+          "covert": {
+            "value": 1
+          },
+
+          "investigation": {
+            "value": 1
+          },
+
+          "medicine": {
+            "value": 1
+          },
+
+          "professional": {
+            "value": 1
+          },
+
+          "science": {
+            "value": 1
+          },
+
+          "streetwise": {
+            "value": 1
+          },
+
+          "survival": {
+            "value": 1
+          },
+
+          "technology": {
+            "value": 1
+          },
+
+          "vehicles": {
+            "value": 1
+          }
+        }
+      },
+
+      "mods": {
+        "perks": [],
+
+        "flaws": []
+      },
+
+      "threat": {
+        "min":   1,
+        "value": 1,
+        "max":   100
       }
     },
 
     "hero": {
-      "templates": ["background", "resources"],
+      "templates": ["background", "resources", "core", "mods"],
+
       "hero_points": {
+        "min":   1,
         "value": 0,
         "max":   10000
       }
     },
 
     "villain": {
-      "templates": ["background", "resources"]
+      "templates": ["background", "resources", "core", "mods"]
     },
 
-    "foe": {},
+    "foe": {
+      "templates": ["background", "resources", "core", "mods"]
+    },
 
-    "minion": {}
+    "minion": {
+      "templates": ["background", "threat"]
+    }
   }
 }
-

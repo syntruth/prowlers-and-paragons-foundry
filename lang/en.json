@@ -1,0 +1,22 @@
+{
+  "PROWLERS_AND_PARAGONS.Agility":    "Agility",
+  "PROWLERS_AND_PARAGONS.Intellect":  "Intellect",
+  "PROWLERS_AND_PARAGONS.Might":      "Might",
+  "PROWLERS_AND_PARAGONS.Perception": "Perception",
+  "PROWLERS_AND_PARAGONS.Toughness":  "Toughness",
+  "PROWLERS_AND_PARAGONS.Willpower":  "Willpower",
+
+  "PROWLERS_AND_PARAGONS.AgilityAbbr":    "str",
+  "PROWLERS_AND_PARAGONS.IntellectAbbr":  "con",
+  "PROWLERS_AND_PARAGONS.MightAbbr":      "dex",
+  "PROWLERS_AND_PARAGONS.PerceptionAbbr": "int",
+  "PROWLERS_AND_PARAGONS.ToughnessAbbr":  "wis",
+  "PROWLERS_AND_PARAGONS.WillpowerAbbr":  "cha",
+
+  "PROWLERS_AND_PARAGONS.EffectCreate": "Create Effect",
+  "PROWLERS_AND_PARAGONS.EffectToggle": "Toggle Effect",
+  "PROWLERS_AND_PARAGONS.EffectEdit": "Edit Effect",
+  "PROWLERS_AND_PARAGONS.EffectDelete": "Delete Effect",
+
+  "PROWLERS_AND_PARAGONS.Add": "Add"
+}
